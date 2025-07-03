@@ -39,6 +39,26 @@ Build a machine learning model to predict weekly sales based on historical and s
 ## 🧰 Requirements
 
 See `requirements.txt`.
+## 📦 Requirements
+
+This project uses the following Python libraries:
+
+| Package        | Use Case                                                                 |
+|----------------|--------------------------------------------------------------------------|
+| `pandas`       | Data loading, manipulation, and preprocessing                            |
+| `numpy`        | Numerical operations and array manipulation                              |
+| `matplotlib`   | Basic data visualizations (line plots, bar charts, etc.)                 |
+| `seaborn`      | Advanced and beautiful statistical visualizations                        |
+| `scikit-learn` | Machine learning models and preprocessing tools                          |
+| `xgboost`      | High-performance gradient boosting algorithm for regression/classification |
+| `jupyter`      | Interactive coding environment used for developing and running notebooks |
+| `openpyxl`     | Support for reading `.xlsx` Excel files in pandas                        |
+
+To install all dependencies:
+
+```bash
+pip install -r requirements.txt
+
 
 ## 📌 Notes
 
